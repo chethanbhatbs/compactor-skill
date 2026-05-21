@@ -12,20 +12,20 @@ Reduce Claude Code token usage without losing functionality. Works passively via
 **One-line install:**
 
 ```bash
-gh repo clone chethanbhatbs/token-saver-skill ~/.claude/skills/token-saver
+gh repo clone chethanbhatbs/compactor-skill ~/.claude/skills/compactor
 ```
 
 **Manual install:**
 
 ```bash
-git clone https://github.com/chethanbhatbs/token-saver-skill.git
-cp -r token-saver-skill/ ~/.claude/skills/token-saver/
+git clone https://github.com/chethanbhatbs/compactor-skill.git
+cp -r token-saver-skill/ ~/.claude/skills/compactor/
 ```
 
 **Verify it's installed:**
 
 ```bash
-ls ~/.claude/skills/token-saver/
+ls ~/.claude/skills/compactor/
 ```
 
 You should see `SKILL.md` (and any other skill files).
@@ -75,7 +75,7 @@ Skills are markdown files in `~/.claude/skills/` that give Claude Code specializ
 ## Uninstall
 
 ```bash
-rm -rf ~/.claude/skills/token-saver
+rm -rf ~/.claude/skills/compactor
 ```
 
 ## License
