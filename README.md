@@ -1,4 +1,4 @@
-# Token Saver — Claude Code Skill
+# Token Saver - Claude Code Skill
 
 Reduce Claude Code token usage without losing functionality. Works passively via CLAUDE.md rules and actively via `/token-saver` efficiency checks.
 
@@ -33,17 +33,17 @@ You should see `SKILL.md` (and any other skill files).
 ## Usage
 
 ```
-/token-saver              # Run mid-conversation efficiency audit
+/token-saver # Run mid-conversation efficiency audit
 ```
 
 ### What it does
 
-- **Targeted reads** — uses `offset` + `limit` instead of reading full files (~60-80% fewer tokens)
-- **Grep before Read** — finds line numbers first, reads only relevant sections
-- **Model switching** — suggests `/model haiku` for simple tasks (~5x cheaper)
-- **Context management** — suggests `/compact` when conversations get long
-- **No wasted agents** — avoids spawning subagents for 1-2 tool call tasks
-- **Concise responses** — answer first, explain only if asked
+- **Targeted reads** - uses `offset` + `limit` instead of reading full files (~60-80% fewer tokens)
+- **Grep before Read** - finds line numbers first, reads only relevant sections
+- **Model switching** - suggests `/model haiku` for simple tasks (~5x cheaper)
+- **Context management** - suggests `/compact` when conversations get long
+- **No wasted agents** - avoids spawning subagents for 1-2 tool call tasks
+- **Concise responses** - answer first, explain only if asked
 
 ### Model Recommendations
 
@@ -81,5 +81,5 @@ rm -rf ~/.claude/skills/compactor
 ---
 
 <p align="center">
-  <sub>Built with <a href="https://emergent.sh">Emergent</a> + <a href="https://claude.ai/code">Claude Code</a> · refined by hand</sub>
+ <sub>Built with <a href="https://emergent.sh">Emergent</a> + <a href="https://claude.ai/code">Claude Code</a> · refined by hand</sub>
 </p>
